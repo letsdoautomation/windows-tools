@@ -7,7 +7,7 @@ Notepad exe: [Notepad++](https://notepad-plus-plus.org/downloads/v8.5.4/)
 ```powershell
 dotnet tool install --global wix
 ```
-#### wix build command
+### wix build command
 ```powershell
 wix build "Notepad++.wxs"
 ```
