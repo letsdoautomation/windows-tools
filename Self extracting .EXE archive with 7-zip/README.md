@@ -9,9 +9,12 @@
 * Create simple self extracting .EXE archive that contains random files
 * Create silent self extracting Office 2016 Installation
 
+<b>Extract via command line:</b>
+
 ```batch
 cmd /c files.exe -y -o"C:\Windows\Temp\Files"
 ```
+<b>Create self extracting installation executable:</b>
 
 ```batch
 copy /b 7zS.sfx + config.txt + office.7z Office.exe
